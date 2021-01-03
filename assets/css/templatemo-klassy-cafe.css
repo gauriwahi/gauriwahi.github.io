@@ -700,7 +700,7 @@ banner
   text-align: center;
 }
 
-#hereo .main-white-button  {
+#hero .main-white-button  {
   margin-top: 25px;
   margin-bottom: 10px;
 }
@@ -1137,27 +1137,36 @@ chefs
   transition: all .5s;
   opacity: 0;
   visibility: hidden;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 3px;
+  margin-top: 5px;
+  text-align: center;
 }
 
 #chefs .chef-item .thumb ul.social-icons li {
   display: inline-block;
-  margin: 0px 5px;
+  margin: auto;
 }
 
 #chefs .chef-item .thumb ul.social-icons li a {
-  width: 40px;
-  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   background-color: #fff;
-  color: #2a2a2a;
-  border-radius: 50%;
+  color: #32a8a8;
+  width: 200px;
   text-align: center;
   line-height: 40px;
   display: inline-block;
   transition: all .5s;
+  border-radius: 3px;
 }
 
 #chefs .chef-item .thumb ul.social-icons li a:hover {
   background-color: #32a8a8;
+  color: #fff;
 }
 
 #chefs .chef-item:hover .overlay {
