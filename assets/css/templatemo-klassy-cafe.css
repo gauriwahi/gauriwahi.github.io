@@ -1225,8 +1225,8 @@ reservation
 #reservation {
   margin-top: 120px;
   padding: 120px 0px;
-  /*background-image: url(../images/reservation-bg.jpg);*/
-  background-color: #fff;
+  background-image: url(../images/banner2.png);
+  /*background-color: #fff;*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1286,16 +1286,29 @@ reservation
   text-align: center;
 }
 
-#reservation .right-text-content ul li {
+#reservation .container {
+position: relative;
+}
+
+#reservation .vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#reservation .vertical-center ul li {
   display: inline-block;
   margin-left: 15px;
+  text-align: center;
 }
-#reservation .right-text-content ul li:first-child {
+#reservation .vertical-center ul li:first-child {
   margin-left: 0px;
 }
 
 
-#reservation .right-text-content ul li a {
+#reservation .vertical-center ul li a {
   width: 44px;
   height: 44px;
   display: inline-block;
@@ -1311,7 +1324,7 @@ reservation
   transition: all 0.5s ease 0s;
 }
 
-#reservation .right-text-content ul li a:hover {
+#reservation .vertical-center ul li a:hover {
   color: #2a2a2a;
 }
 
@@ -1527,8 +1540,8 @@ footer
 */
 
 footer {
-  margin-top: 60px;
-  padding: 50px 0px;
+  margin-top: 50px;
+  padding: 70px 0px;
   background-color: #32a8a8;
 }
 
@@ -1556,16 +1569,29 @@ footer .logo {
   text-align: center;
 }
 
-footer .right-text-content ul li {
+footer .container {
+position: relative;
+padding-top: 20px;
+}
+
+footer .vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer  ul li {
   display: inline-block;
   margin-left: 15px;
 }
-footer .right-text-content ul li:first-child {
+footer  ul li:first-child {
   margin-left: 0px;
 }
 
 
-footer .right-text-content ul li a {
+footer  ul li a {
   width: 44px;
   height: 44px;
   display: inline-block;
@@ -1581,7 +1607,7 @@ footer .right-text-content ul li a {
   transition: all 0.5s ease 0s;
 }
 
-footer .right-text-content ul li a:hover {
+footer ul li a:hover {
   color: #2a2a2a;
 }
 
