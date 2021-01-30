@@ -878,6 +878,10 @@ about
   margin-bottom: 25px;
 }
 
+#about .right-text-content p {
+  margin-bottom:25px;
+}
+
 #about .right-content {
   margin-left: 30px;
 }
@@ -1618,7 +1622,7 @@ responsive
 */
 
 @media (max-width: 992px) {
-  #top {
+  #tophero {
     padding-top: 100px;
     height: auto;
   }
@@ -1757,6 +1761,20 @@ responsive
 
 /*animate stuff*/
 /* Animated Circles CSS */
+
+#heroscratch{
+    margin-top: 120px;
+    padding: 120px 0px;
+    background-image: url(../images/banner2.png);
+    /*background-color: #fff;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
 
 #hero .circles {
 	position: static;
