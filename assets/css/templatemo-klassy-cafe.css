@@ -109,6 +109,7 @@ p {
   color: #2a2a2a;
 }
 
+
 /*
 ---------------------------------------------
 global styles
@@ -1765,11 +1766,20 @@ responsive
 #heroscratch{
     margin-top: 120px;
     padding: 120px 0px;
-    background-image: url(../images/banner2.png);
+    height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner2.png);
     /*background-color: #fff;*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#heroscratch .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 hr.solid {
@@ -1943,6 +1953,9 @@ hr.solid {
 #hero .vertical-center ul li a:hover {
   color: #2a2a2a;
 }
+
+
+
 
 @keyframes animate {
 	0% {
