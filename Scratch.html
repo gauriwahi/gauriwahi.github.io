@@ -154,22 +154,22 @@ As the sole product designer on this team, I collaborated with the rest of the t
           </div>
 
           <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
+        var slideIndexR = 1;
+        showDivs(slideIndexR);
 
         function plusDivs(n) {
-          showDivs(slideIndex += n);
+          showDivs(slideIndexR += n);
         }
 
         function showDivs(n) {
           var i;
           var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
+          if (n > x.length) {slideIndexR = 1}
+          if (n < 1) {slideIndexR = x.length}
           for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
           }
-          x[slideIndex-1].style.display = "block";
+          x[slideIndexR-1].style.display = "block";
         }
         </script>
 
@@ -265,34 +265,12 @@ As the sole product designer on this team, I collaborated with the rest of the t
               <br>
               <!--beginning of review-->
               <p style="font-weight:bold; color:#32a8a8;font-size:16px;line-height:10px;">Example of Reviews</p>
-              <div class="w3-content w3-display-container">
-                <img class="review" src="Apple Review.png" style="width:100%">
-                <img class="review" src="Google Review.png" style="width:100%">
-
-
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-              </div>
-
-              <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
-
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("review");
-              if (n > x.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-              }
-              x[slideIndex-1].style.display = "block";
-            }
-            </script>
+              <a target="_blank" href="image.png">
+              <img src="Apple Review.png" alt="Flowers in Chania">
+            </a>
+            <a target="_blank" href="image.png">
+            <img src="Google Review.png" alt="Flowers in Chania">
+          </a>
             <br>
             <!--end of review-->
               <p style="font-weight:bold; color:#32a8a8;font-size:16px;line-height:10px;">Did our goal help reach our target audience to join Shopify?</p>
